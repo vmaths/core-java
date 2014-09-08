@@ -1,4 +1,10 @@
 package com.vmstate.abstractmodifier;
+/**
+ * This example demonstrates subclass of the animal class
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 
 public class Cow extends Animal 
 {
