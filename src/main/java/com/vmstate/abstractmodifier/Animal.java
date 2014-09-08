@@ -7,13 +7,13 @@ package com.vmstate.abstractmodifier;
  *@author Rajesh Abraham
  */
 
-public abstract class Animal  // if  this class is an abstract class , we cannot remove the "abstract" key word from this class
+public abstract class Animal  
 {
 	public void name()
 	{
 		System.out.println("My name is.............");
 	}
 	
-	public abstract void eat();  // abstract method does not need body
+	public abstract void eat();  
 	public abstract void sleep();
 }
