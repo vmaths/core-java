@@ -2,7 +2,7 @@ package com.vmstate.basicjava;
 import java.util.Scanner;
 public class AddingNumbers
 {
-
+//test
 	public static void main(String args[]) 
 	{
 		int x, y, z;
