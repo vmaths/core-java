@@ -1,7 +1,12 @@
 package com.vmstate.collectionframework;
 
 import java.util.ArrayList;
-//
+/**
+ * This example demonstrates simple usage of ArrayList
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 public class SampleArrayList 
 {
 	public static void main(String[] args) 
