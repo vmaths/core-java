@@ -2,6 +2,12 @@ package com.vmstate.collectionframework;
 
 import java.util.HashMap;
 
+/**
+ * This example demonstrates simple usage of HashMap
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 public class SampleHashMap 
 {
 	public static void main(String[] args) 
