@@ -1,5 +1,11 @@
 package com.vmstate.basicjava;
 import java.util.Scanner;
+/**
+ * This example demonstrates the simple addition of two integer numbers
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 public class AddingNumbers
 {
 //test

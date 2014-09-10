@@ -1,9 +1,13 @@
 package com.vmstate.basicjava;
+/**
+ * This example demonstrates finding the minimum of two numbers by using if else condition
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 
 public class MinimumNumber 
-{
-
-		   
+{		   
 		   public static void main(String[] args) 
 		   {
 		      int a = 11;
@@ -12,7 +16,7 @@ public class MinimumNumber
 		      System.out.println("Minimum Value = " + c);
 		   }
 
-		   /** returns the minimum of two numbers */
+		   /* returns the minimum of two numbers */
 		   public static int minFunction(int n1, int n2)
 		   {
 		      int min;

@@ -1,5 +1,12 @@
 package com.vmstate.basicjava;
 
+/**
+ * This example demonstrates printing alphabets using for loop
+ * 
+ * @author Rajesh Abraham
+ *
+ */
+
 public class Alphabets
 {
 	

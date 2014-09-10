@@ -1,6 +1,11 @@
 package com.vmstate.basicjava;
-
 import java.util.Scanner;
+/**
+ * This example demonstrates a particular value is present or not in the list by using array
+ * 
+ *  * @author Rajesh Abraham
+ *
+ */
 public class BinarySearch 
 {
 	  public static void main(String args[])
