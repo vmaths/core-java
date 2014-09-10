@@ -5,7 +5,11 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.Set;
-
+/**
+ * This example demonstrates the simple usage of Iterator
+ * @author Rajesh Abraham
+ *
+ */
 public class SampleIterator
 {
 

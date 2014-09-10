@@ -1,4 +1,9 @@
 package com.vmstate.exceptionhandling;
+/**
+ * This example demonstrates simple usage of ExceptionHandling
+ * @author Rajesh Abraham
+ *
+ */
 
 public class ExceptionHandling 
 {
