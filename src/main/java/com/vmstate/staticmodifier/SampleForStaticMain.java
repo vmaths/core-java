@@ -19,6 +19,7 @@ public class SampleForStaticMain
 		b3.printName();
 		
 		Box.printNumberOfBoxes();
+		//The static method printNumberOfBoxes() from the type Box should be accessed in a static way
 		b2.printNumberOfBoxes();
 		b3.printNumberOfBoxes();
 	}
