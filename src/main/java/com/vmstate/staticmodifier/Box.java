@@ -1,4 +1,10 @@
 package com.vmstate.staticmodifier;
+/**
+ * This class illustrates variable declarations and methods for main class
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 
 public class Box 
 {

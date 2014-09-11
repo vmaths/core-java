@@ -1,5 +1,11 @@
 package com.vmstate.string;
 import java.util.Scanner;
+/**
+ * This example demonstrates declaration of string data type 
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 
 public class CompareString 
 

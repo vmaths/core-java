@@ -1,5 +1,11 @@
-package com.vmstate.methodoverriding;/*/*Overriding where a subclass method provides a  
-										 implementation of a method with the same method parameters */
+package com.vmstate.methodoverriding;
+
+/**
+ * Overriding where a subclass method provides a implementation of a method with the same method parameters
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 public class SampleMethodOverriding 
 {
 

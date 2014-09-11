@@ -1,4 +1,10 @@
 package com.vmstate.staticmodifier;
+/**
+ * This example illustrates the usage of static modifier 
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 
 public class SampleForStaticMain 
 {
