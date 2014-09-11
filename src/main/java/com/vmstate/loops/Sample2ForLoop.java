@@ -1,5 +1,10 @@
 package com.vmstate.loops;
-
+/**
+ * This example demonstrates simple usage For loop
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 public class Sample2ForLoop 
 {
 	public static void main(String[] args) 

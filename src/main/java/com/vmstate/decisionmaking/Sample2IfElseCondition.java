@@ -1,5 +1,11 @@
 package com.vmstate.decisionmaking;
 import java.util.Scanner;
+/**
+ * This example demonstrates the usage of if else condition
+ *
+ * @author Rajesh Abraham
+ *
+ */
 public class Sample2IfElseCondition
 {
 	// If else in Java code

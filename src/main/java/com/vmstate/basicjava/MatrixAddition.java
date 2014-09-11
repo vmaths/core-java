@@ -1,6 +1,11 @@
 package com.vmstate.basicjava;
 import java.util.Scanner;
-
+/**
+ * This example demonstrates matrix addition
+ * 
+ * @author cathy
+ *
+ */
 public class MatrixAddition
 {
 	

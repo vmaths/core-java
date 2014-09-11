@@ -1,4 +1,10 @@
 package com.vmstate.decisionmaking;
+/**
+ * This example demonstrates simple usage of Switch statement
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 
 public class SampleSwitch 
 {
