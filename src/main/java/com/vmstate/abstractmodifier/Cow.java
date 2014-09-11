@@ -1,6 +1,7 @@
 package com.vmstate.abstractmodifier;
 /**
  * This example demonstrates subclass of the animal class
+ * Cow class extends from animal class it should include all the methods from animal class with out abstract key word
  * 
  * @author Rajesh Abraham
  *
