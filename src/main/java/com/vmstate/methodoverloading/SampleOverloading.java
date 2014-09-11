@@ -1,5 +1,10 @@
-package com.vmstate.methodoverloading;/*Overloading is two methods that have the same name, 
-										 provided they have different method parameters */
+package com.vmstate.methodoverloading;
+/**
+ * Overloading is two methods that have the same name, provided they have different method parameters 
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 
 public class SampleOverloading 
 {
