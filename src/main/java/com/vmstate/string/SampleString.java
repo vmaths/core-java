@@ -2,7 +2,7 @@ package com.vmstate.string;
 
 /**
  * @author Seany Rose
- * 		   The equals() method of the String class is to compare the
+ *  The equals() method of the String class is to compare the
  *         contents of two Strings and the relational equality operator '=='
  *         compares the references (or pointers) of two objects (checks if the
  *         memory location is the same).
@@ -45,8 +45,7 @@ public class SampleString {
 		System.out.println("--------------------------------------------");
 
 		System.out.println("Case 4: ");
-		String s7 = s6; // pointing to the same reference i.e both the values
-						// and memory location will be same.
+		String s7 = s6; // pointing to the same reference i.e both the values and memory location will be same.
 
 		System.out.println("s6, s7 point to same memory location (s6==s7) ? "
 				+ (s6 == s7));
