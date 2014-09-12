@@ -15,11 +15,11 @@ public class SampleIfCondition
 		 
 		    	if (learning)
 		    		{
-		    			System.out.println("Java programmer");
+		    			System.out.println("if condition evaluated to true");
 		    		}
 		    	else 
 		    		{
-		    			System.out.println("What are you doing here?");
+		    			System.out.println("if condition evaluated to false");
 		    		}
 		  }
 }

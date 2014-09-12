@@ -1,4 +1,4 @@
-package com.vmstateinterface;
+package com.vmstate.sampleinterface;
 
 public class HondaAccord implements Vehicle {
 
