@@ -13,7 +13,7 @@ public class EnumSample1
 	public enum Margin
 	
 	{
-		top,right, bottom, left
+		TOP,RIGHT, BOTTOM, LEFT
 	}
 	
 	public static void main(String[] args)
