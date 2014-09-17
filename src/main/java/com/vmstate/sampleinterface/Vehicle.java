@@ -10,13 +10,14 @@ package com.vmstate.sampleinterface;
  * A class that implements an interface has an is-a relationship with that data type
  * By default all the fields in interface are public and static
  * 
+ * 
  * @author Rajesh Abraham
  *
  */
 
 public interface Vehicle 
 {
-	public void accelerate();
+	public void accelerate();// method does not have a body 
 	public void brake();
 	public void steering();
 }
