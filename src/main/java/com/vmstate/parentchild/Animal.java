@@ -1,4 +1,4 @@
-package com.vmstate.abstractmodifier;
+package com.vmstate.parentchild;
 
 /**
  * This example demonstrates simple usage of Abstract Modifier class Animal is

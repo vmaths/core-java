@@ -1,6 +1,11 @@
 package com.vmstate.loop;
 
-
+/**
+ * This example illustrates the usage of while loop
+ * 
+ * @author Rajesh Abraham
+ *
+ */
 public class WhileLoop 
 {
 	static private String[] months =

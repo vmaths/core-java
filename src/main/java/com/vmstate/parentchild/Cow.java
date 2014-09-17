@@ -1,4 +1,4 @@
-package com.vmstate.abstractmodifier;
+package com.vmstate.parentchild;
 /**
  * This example demonstrates subclass of the animal class
  * Cow class extends from animal class it should include all the methods from animal class with out abstract key word
@@ -22,5 +22,8 @@ public class Cow extends Animal
 		System.out.println("sleep() method in concrete (Cow) class. Sleeping ...ZZZ...");
 	}
 	
-
+	public void doMilk()
+	{
+		System.out.println("doMilk() method. I can give milk");
+	}
 }

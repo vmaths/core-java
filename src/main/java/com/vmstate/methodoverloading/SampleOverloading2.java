@@ -1,4 +1,10 @@
 package com.vmstate.methodoverloading;
+/**
+ * Same function name with different parameters
+ * 
+ * @author  Rajesh Abraham
+ * 
+ */
 
 public class SampleOverloading2 
 {
@@ -10,7 +16,6 @@ public class SampleOverloading2
 		      double c = 7.3;
 		      double d = 9.4;
 		      int result1 = minFunction(a, b);
-		      // same function name with different parameters
 		      double result2 = minFunction(c, d);
 		      System.out.println("Minimum Value = " + result1);
 		      System.out.println("Minimum Value = " + result2);
