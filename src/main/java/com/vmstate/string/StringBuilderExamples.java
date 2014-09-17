@@ -6,7 +6,7 @@ package com.vmstate.string;
  *
  */
 
-public class SampleStringBuilder 
+public class StringBuilderExamples 
 {
 public static void main(String[] args)
 	{

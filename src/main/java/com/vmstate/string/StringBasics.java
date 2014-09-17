@@ -7,7 +7,7 @@ package com.vmstate.string;
  *         compares the references (or pointers) of two objects (checks if the
  *         memory location is the same).
  */
-public class SampleString {
+public class StringBasics {
 
 	public static void main(String[] args) {
 

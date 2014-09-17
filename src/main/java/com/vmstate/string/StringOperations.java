@@ -3,7 +3,7 @@ package com.vmstate.string;
  * @author Seany Rose
  *  This class demonstrates different methods of String.
  */
-public class ParsingStrings {
+public class StringOperations {
 
 	public static void main(String[] args) {
 
