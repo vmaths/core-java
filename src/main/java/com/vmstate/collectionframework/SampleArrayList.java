@@ -4,9 +4,8 @@ import java.util.ArrayList;
 /**
  * This example demonstrates simple usage of ArrayList
  * The java.util.ArrayList class provides resizable-array and implements the List interface.
- * 
- * @author Rajesh Abraham
- *
+ * @author Rajesh Abraham 
+ * @author Geo Thomas
  */
 public class SampleArrayList 
 {
@@ -21,16 +20,16 @@ public class SampleArrayList
 		list1.add("Oregon");
 		list1.add("Washington");
 		
-		System.out.println(list1);
+		System.out.println("Elements of List1: " +list1);
 		
 		// adding more elements to the list
 		list1.add("Alaska");
-		System.out.println(list1);
+		System.out.println("Elements of List1: " + list1);
 		
 		// use remove() method to remove elements from the list
 		// here element is removed from index 0 (first position)
 		list1.remove(0);
-		System.out.println(list1);
+		System.out.println("Elements of List1: " +list1);
 		
 		// use get() method to retrieve an element from the list
 		// here the element index one is returned
@@ -52,19 +51,33 @@ public class SampleArrayList
 		list2.add("Kansas");
 		System.out.println(list2);
 		
+		// contains() method returns true if this list contains the specified element.
+		boolean val=list2.contains("Texas");
+		if(val==true) System.out.println("The element Texas is present in the list");
+		else  System.out.println("The element Texas is not present in the list");
+			
+		val=list2.contains("Alaska");
+		if(val==true) System.out.println("The element Alaska is present in the list");
+		else  System.out.println("The element Alaska is not present in the list");
+		
 		// use addAll() method to add all the elements from list2 to list1
 		// this method appends all of the elements in the specified collection to the end of this list 
 		list1.addAll(list2);
-		System.out.println(list1);
+		System.out.println("Elements of List1: " + list1);
 		
 		// set() method replaces the element at the specified position in this list with the specified element.
-		list1.set(2, "California");
-		System.out.println(list1);
+		list1.set(1, "California");
+		System.out.println("California is added as second element in list1") ;
+		System.out.println("Elements of List1: " + list1);
 		
 		// trimToSize() method trims the capacity of this ArrayList instance to be the list's current size. 
 		// an application can use this operation to minimize the storage of an ArrayList instance.
 		list1.trimToSize();
-		System.out.println(list1.size());
+		System.out.println("Number of Elements in list1, after trimToSize() : " + list1.size());	
+		
+		//clear() method removes all of the elements from this list.
+		list2.clear();
+		System.out.println("Number of Elements in list2, after clear()  : " +list2.size());
 		
 	}
 }
