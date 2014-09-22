@@ -1,10 +1,9 @@
 package com.vmstate.parentchild;
 
 /**
- * This example demonstrates simple usage of Abstract Modifier class Animal is
- * an abstract class if this class is an abstract class , we cannot remove the
- * "abstract" key word from this class
- * 
+ * This example demonstrates simple usage of Abstract Modifier class 
+ * Animal is an abstract class, if this class is an abstract class , the abstract key word  should be must
+ *  
  * @author Rajesh Abraham
  */
 
@@ -19,3 +18,4 @@ public abstract class Animal {
 		System.out.println("sleep() method in abstract (Animal) class. Sleeping ...ZZZ...");
 	}
 }
+

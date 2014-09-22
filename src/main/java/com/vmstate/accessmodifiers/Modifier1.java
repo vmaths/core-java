@@ -10,3 +10,4 @@ public class Modifier1
 		System.out.println(sample1.printWeek());
 	}
 }
+
