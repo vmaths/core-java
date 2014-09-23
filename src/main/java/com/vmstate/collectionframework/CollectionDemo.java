@@ -1,7 +1,10 @@
 package com.vmstate.collectionframework;
-
 import java.util.*;
 
+/**This class illustrate few examples of standard implementations of collection interface
+ * @author Rajesh Abraham
+ * @author Geo Thomas
+ */
 public class CollectionDemo 
 {
 	public static void main(String[] args)
