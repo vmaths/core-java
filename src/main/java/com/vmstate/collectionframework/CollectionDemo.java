@@ -9,7 +9,7 @@ public class CollectionDemo
 {
 	public static void main(String[] args)
 	{
-		  //ArrayList is a dynamic array implementaion
+		  //ArrayList is a dynamic array implementation
 	      List <String >a1 = new ArrayList<String>();
 	      a1.add("California");
 	      a1.add("Florida");

@@ -3,7 +3,9 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-/** This example demonstrates set interface
+/** 
+ * This example demonstrates set interface
+ * This example illustrate hashSet and treeSet implementations
  * 
  * @author Rajesh Abraham
  * @author Geo Thomas
@@ -37,11 +39,12 @@ public class SetDemo
         set.remove(30);
         System.out.println("The elements of the set after removal");
         System.out.println("\t" +set);
-        
+       
+        //TreeSet implements SortedSet interface
         //TreeSet will return a sorted list of items
         TreeSet sortedSet = new TreeSet<Integer>(set);
         System.out.println("The sorted list is:");
-        System.out.println(sortedSet);
+        System.out.println("\t" + sortedSet);
 
         System.out.println("The First element of the set is: "+
                           (Integer)sortedSet.first());
