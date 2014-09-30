@@ -69,7 +69,6 @@ public class HashtableDemo
 
 		// How to get all values form hashtable 
 		// you can use keySet() method to get a Set of all the keys of hashtable
-		// in Java
 		Set hashtableKeys = table.keySet();
 		System.out.println("Set of all the keys of hashtable: " +  table.keySet());
 
