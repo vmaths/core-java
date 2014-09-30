@@ -4,6 +4,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 
+	/**
+	 * This example demonstrates simple usage of LinkedList
+	 * @author Rajesh Abraham
+	 * @author Geo Thomas
+	 */
 	public class LinkedListDemo 
 	{
 		public static void main(String[]args)

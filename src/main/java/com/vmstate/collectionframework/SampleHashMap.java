@@ -4,9 +4,8 @@ import java.util.*;
 
 /**
  * This example demonstrates simple usage of HashMap
- * 
  * @author Rajesh Abraham
- *
+ * @author Geo Thomas
  */
 public class SampleHashMap 
 {
@@ -23,10 +22,12 @@ public class SampleHashMap
 		System.out.println(map);
 		
 		//int size() Returns the number of key-value mappings in this map.
+		
 		System.out.println("The number of key-value mappings in this map : " + map.size());
 		
 		//Object get(Object key) Returns the value to which the specified key is mapped in this identity hash map, 
 		//or null if the map contains no mapping for this key.
+		
 		String cap = map.get("Oregon");
 		System.out.println("The capital of Oregon is " + cap);
 		
@@ -40,6 +41,7 @@ public class SampleHashMap
 		
 		// boolean containsKey(Object key) 
 		// Returns true if this map contains a mapping for the specified key.
+		
 		boolean containsKey = map.containsKey("Oregon");
 		if (containsKey== true)
 			System.out.println("Given key has a value ");
