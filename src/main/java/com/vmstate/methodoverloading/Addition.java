@@ -1,11 +1,8 @@
 package com.vmstate.methodoverloading;
 /**
  * Examples for method overloading class declaration
- * 
  * @author Rajesh Abraham
- *
  */
-
 public class Addition 
 {
 	public static void add(int a , int b) 

@@ -1,11 +1,8 @@
 package com.vmstate.sampleinterface;
 /**
  * All the methods of interface are abstract and should be overridden in subclasses
- * 
  * @author Rajesh Abraham
- *
  */
-
 public class HondaAccord implements Vehicle 
 {
 	// As per rule HondaAccord class implements all the methods of vehicle interface

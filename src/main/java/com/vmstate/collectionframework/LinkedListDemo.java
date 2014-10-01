@@ -1,9 +1,6 @@
 package com.vmstate.collectionframework;
-
 import java.util.LinkedList;
 import java.util.List;
-
-
 	/**
 	 * This example demonstrates simple usage of LinkedList
 	 * @author Rajesh Abraham

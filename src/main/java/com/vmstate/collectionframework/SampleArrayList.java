@@ -1,5 +1,4 @@
 package com.vmstate.collectionframework;
-
 import java.util.ArrayList;
 /**
  * This example demonstrates simple usage of ArrayList
@@ -10,7 +9,6 @@ import java.util.ArrayList;
 public class SampleArrayList 
 {
  public static void main(String[] args)
- 
  {
   // list1 is an ArrayList with datatype String
   ArrayList<String> list1 = new ArrayList<String>();

@@ -3,38 +3,35 @@ import java.util.Collection;
 import java.util.Enumeration;
 import java.util.TreeMap;
 import java.util.Set;
-import java.util.Iterator;
 import java.util.Map;
-
 /**
  * This example demonstrates simple usage of TreeMap
- * 
  * @author Rajesh Abraham
  * @author Geo Thomas
- *
  */
 public class SampleTreeMap
 {
-	   public static void main(String args[]) {
-
-	      // TreeMap is an ordered collection.
-		  // TreeMap is sorted in the ascending order of its keys 
-	      TreeMap<String, String> tmap = 
-	             new TreeMap<String, String>();
-
-	      // TreeMap example to put object into TreeMap
-		 // put(key, value) is used to insert object into the TreeMap
+	   public static void main(String args[])
+	   {
+		   // TreeMap is an ordered collection.
+		   // TreeMap is sorted in the ascending order of its keys 
 	     
-	      tmap.put("California", "Sacramento");
-	      tmap.put("Oregon", "Salem");
-	      tmap.put("Washington", "Olympia");
-	      tmap.put("Alaska", "Juneau");
-	      System.out.println(tmap);
+		   TreeMap<String, String> tmap = new TreeMap<String, String>();
+
+		   // TreeMap example to put object into TreeMap
+		   // put(key, value) is used to insert object into the TreeMap
+	     
+		   tmap.put("California", "Sacramento");
+		   tmap.put("Oregon", "Salem");
+		   tmap.put("Washington", "Olympia");
+		   tmap.put("Alaska", "Juneau");
+		   System.out.println(tmap);
 	      
-	      // get() method returns the value to which this map maps the specified key.
+		   // get() method returns the value to which this map maps the specified key.
 			tmap.get("California");
 			System.out.println(" Corresponding value to the key California: "
 					+ tmap.get("California"));
+			
 			// TreeMap containsKey Example
 			// Use containsKey(Object) method to check if an Object exists as key in
 			// TreeMap
@@ -62,14 +59,9 @@ public class SampleTreeMap
 			Collection treemapvalues = tmap.values();
 			System.out.println(" Table Values:"+tmap.values());
 
-
 			// clear() removes all mappings from this TreeMap.
 			tmap.clear();
-			
 			System.out.println("Size of treemap after clear() method : " + tmap.size());
-
-
-
 	      
 	      }
 

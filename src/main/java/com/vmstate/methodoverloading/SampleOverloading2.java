@@ -1,14 +1,10 @@
 package com.vmstate.methodoverloading;
 /**
  * Same function name with different parameters
- * 
  * @author  Rajesh Abraham
- * 
  */
-
 public class SampleOverloading2 
 {
-	
 		public static void main(String[] args) 
 		{
 		      int a = 11;
@@ -22,7 +18,8 @@ public class SampleOverloading2
 		   }
 
 		  // for integer
-		   public static int minFunction(int n1, int n2) {
+		   public static int minFunction(int n1, int n2) 
+		   {
 		      int min;
 		      if (n1 > n2)
 		         min = n2;
@@ -31,8 +28,10 @@ public class SampleOverloading2
 
 		      return min; 
 		   }
+		  
 		   // for double
-		   public static double minFunction(double n1, double n2) {
+		   public static double minFunction(double n1, double n2) 
+		   {
 		     double min;
 		      if (n1 > n2)
 		         min = n2;

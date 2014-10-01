@@ -1,5 +1,4 @@
 package com.vmstate.collectionframework;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -12,7 +11,6 @@ import java.util.Set;
  */
 public class SampleIterator
 {
-
 	public static void main(String[] args)
 		{
 			ArrayList<String> list = new ArrayList<String>();

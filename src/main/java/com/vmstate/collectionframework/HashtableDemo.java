@@ -19,7 +19,6 @@ public class HashtableDemo
 		// Any non-null object can be used as a key or as a value.
 		Hashtable table = new Hashtable();
 
-
 		// Hashtable example to put object into Hashtable
 		// put(key, value) is used to insert object into map
 		
@@ -38,13 +37,11 @@ public class HashtableDemo
 		System.out.println("Does hashtable contains California as key: "
 		+ table.containsKey("California"));
 
-
 		// Hashtable containsValue Example
 		// just like containsKey(), containsValue returns true if hashtable
 		// contains specified object as value
 		System.out.println("Does hashtable contains Salem as value: "
 		+ table.containsValue("Salem"));
-
 
 		// Hashtable enumeration Example
 		// hashtabl.elements() return enumeration of all hashtable values
@@ -61,11 +58,9 @@ public class HashtableDemo
 		System.out.println("Is table hashtable empty: "
 		+ table.isEmpty());
 
-
 		// How to find size of Hashtable 
 		// use hashtable.size() method to find size of hashtable
 		System.out.println("Size of hashtable in Java: " + table.size());
-
 
 		// How to get all values form hashtable 
 		// you can use keySet() method to get a Set of all the keys of hashtable
@@ -74,7 +69,6 @@ public class HashtableDemo
 
 		Collection hashtableValues = table.values();
 		System.out.println(" Table Values:"+table.values());
-
 
 		// Hashtable clear example
 		// by using clear() we can reuse an existing hashtable, it clears all

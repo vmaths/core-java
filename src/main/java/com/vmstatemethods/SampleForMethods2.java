@@ -1,5 +1,8 @@
 package com.vmstatemethods;
-
+/**
+ * @author Rajesh Abraham
+ *
+ */
 public class SampleForMethods2 
 {
 	public static void main(String [] args)

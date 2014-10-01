@@ -1,14 +1,10 @@
 package com.vmstate.decisionmaking;
 /**
  * This example demonstrates the simple usage of if condition 
- * 
  *   @author Rajesh Abraham
- *
  */
-
 public class SampleIfCondition 
 {
-	
 		  public static void main(String[] args)
 		  {
 		    boolean learning = true;

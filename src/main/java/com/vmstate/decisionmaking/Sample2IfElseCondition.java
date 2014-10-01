@@ -1,17 +1,15 @@
 package com.vmstate.decisionmaking;
-
 import java.util.Scanner;
-
 /**
  * This example demonstrates the usage of if else condition
- *
  * @author Rajesh Abraham
- *
  */
-public class Sample2IfElseCondition {
+public class Sample2IfElseCondition 
+{
 	// If else in Java code
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		int marksObtained, passingMarks;
 
 		passingMarks = 40;
@@ -22,9 +20,11 @@ public class Sample2IfElseCondition {
 
 		marksObtained = input.nextInt();
 
-		if (marksObtained >= passingMarks) {
+		if (marksObtained >= passingMarks)
+		{
 			System.out.println("You passed the exam.");
-		} else {
+		} else 
+		{
 			System.out.println("Unfortunately you failed to pass the exam.");
 		}
 	}

@@ -1,8 +1,6 @@
 package com.vmstate.sampleinterface;
 /**
- * 
  * @author Rajesh Abraham
- *
  */
 public class Driver 
 {

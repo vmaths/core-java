@@ -2,7 +2,6 @@ package com.vmstate.collectionframework;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
-
 /** 
  * This example demonstrates set interface
  * This example illustrate hashSet and treeSet implementations
@@ -54,9 +53,6 @@ public class SetDemo
         //clear(); removes all objects from the collection
         set.clear();
         System.out.println("The number of elements in the list after clear : " + set.size());
-        
-       
-        
      }
 }
      

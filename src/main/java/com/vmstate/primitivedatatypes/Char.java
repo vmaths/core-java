@@ -1,9 +1,7 @@
 package com.vmstate.primitivedatatypes;
 /**
  * This example demonstrates the usage of Primitive Data types char 
- * 
  * @author Rajesh Abraham
- *
  */
 public class Char 
 {

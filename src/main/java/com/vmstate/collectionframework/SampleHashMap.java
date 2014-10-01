@@ -1,7 +1,5 @@
 package com.vmstate.collectionframework;
-
 import java.util.*;
-
 /**
  * This example demonstrates simple usage of HashMap
  * @author Rajesh Abraham
