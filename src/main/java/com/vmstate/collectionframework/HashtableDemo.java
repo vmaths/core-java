@@ -27,13 +27,13 @@ public class HashtableDemo
 		table.put("Oregon", "Salem");
 		table.put("Washington", "Olympia");
 		table.put("Alaska", "Juneau");
-
+		
 		// Hashtable example to get Object from Hashtable
 		// get(key) method is used to retrieve Objects from Hashtable
 		table.get("California");
-
+		
 		// Hashtable containsKey Example
-		// Use containsKey(Object) method to check if an Object exits as key in
+		// Use containsKey(Object) method to check if an Object exists as key in
 		// hashtable
 		System.out.println("Does hashtable contains California as key: "
 		+ table.containsKey("California"));
