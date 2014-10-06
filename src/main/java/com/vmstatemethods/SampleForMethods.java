@@ -1,7 +1,11 @@
 package com.vmstatemethods;
 
 import java.util.Scanner;
-
+/**
+ * This example demonstrates sample for methods
+ * @author Rajesh Abraham
+ *
+ */
 public class SampleForMethods 
 {
 	public static void main(String[] args)

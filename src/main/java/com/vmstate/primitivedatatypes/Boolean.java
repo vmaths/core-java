@@ -1,12 +1,8 @@
 package com.vmstate.primitivedatatypes;
-
 /**
  * This example demonstrates the usage of Primitive Data types boolean
- * 
  * @author Rajesh Abraham
- *
  */
-
 public class Boolean 
 {
 	public static void main(String[] args)

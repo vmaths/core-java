@@ -25,7 +25,7 @@ public class SampleIterator
 					String value = listIterator.next();
 					System.out.println(value);
 				}
-				
+			
 			HashMap<String, String> map = new HashMap<String, String>();
 			map.put("California", "Sacramento");
 			map.put("Oregon", "Salem");

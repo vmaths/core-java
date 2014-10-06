@@ -1,7 +1,7 @@
 package com.vmstatemethods;
 /**
+ * This example demonstrate simple usage of methods 
  * @author Rajesh Abraham
- *
  */
 public class SampleForMethods2 
 {

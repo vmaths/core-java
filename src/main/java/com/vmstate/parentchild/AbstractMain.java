@@ -24,7 +24,9 @@ public class AbstractMain
 		System.out.println("sleep() class is defined as concrete in both Animal and Cow class. So calling sleep() method would be executed from concrete (Cow) class");
 		animalObj.sleep();
 		
+		System.out.println("------------------------------------------------------------");
 		// animalObj.doMilk(); will not work ???
+		System.out.println("doMilk() can not be directly accessed by animalObj, because it is the method of child class");
 		Cow cowObj = (Cow) animalObj;
 		cowObj.doMilk();
 

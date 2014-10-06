@@ -1,11 +1,8 @@
 package com.vmstate.staticmodifier;
 /**
  * This example illustrates the usage of static modifier 
- * 
  * @author Rajesh Abraham
- *
  */
-
 public class SampleForStaticMain 
 {
 	public static void main(String[] args)
